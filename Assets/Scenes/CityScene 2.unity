@@ -174,7 +174,7 @@ SpriteRenderer:
   m_SortingLayerID: 609198547
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0ebd8dd14652d2046b404bd9fde1dc95, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5f7ef7f038d17e4489da693288675a71, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -193,7 +193,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101998829}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2, y: -1.7, z: 0}
+  m_LocalPosition: {x: 0.2, y: -3.14, z: 0}
   m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -217,6 +217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f92cb9266701b45409286767dcf4cafc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  x: 0
+  speed: 10
 --- !u!4 &625077202 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9018903067314471908, guid: 924e83487cba95640aa03a54961c15b1,
@@ -392,7 +394,7 @@ SpriteRenderer:
   m_SortingLayerID: -1962205663
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 81c50ce633c48774b9f4c61062bebdd3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e0069dc757bfee14f919ca569465a71c, type: 3}
   m_Color: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -411,7 +413,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212097572}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.38, z: 0}
   m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -548,7 +550,7 @@ PrefabInstance:
     - target: {fileID: 9018903067314471908, guid: 924e83487cba95640aa03a54961c15b1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.87
+      value: -2.62
       objectReference: {fileID: 0}
     - target: {fileID: 9018903067314471908, guid: 924e83487cba95640aa03a54961c15b1,
         type: 3}
@@ -594,6 +596,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9018903067314471909, guid: 924e83487cba95640aa03a54961c15b1,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 924e83487cba95640aa03a54961c15b1, type: 3}
